@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## App en heroku
 
-Para ver la aplicación funcionando en heroku ir a: `https://raiffeisen-frontend.herokuapp.com/` [Click para ir](https://raiffeisen-frontend.herokuapp.com/)
+Para ver la aplicación funcionando en heroku ir a: `https://tarea-raiffeisen-frontend.herokuapp.com/` [Click para ir](https://tarea-raiffeisen-frontend.herokuapp.com/)
 
 
 ## Backend
