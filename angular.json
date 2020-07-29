@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tarea-raiffeisen-frontend"
+    }
+  },
+  "defaultProject": "tarea-raiffeisen-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
