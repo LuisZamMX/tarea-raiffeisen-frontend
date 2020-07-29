@@ -18,7 +18,7 @@ export class ItemService {
   //Variable para guardar el valor del promedio de los precios de los items
   promedio = 0;
   //Se guarda la URL de la api en una constante
-  readonly URL_API = 'https://raiffeisen-web-back.herokuapp.com/api'
+  readonly URL_API = 'https://tarea-raiffeisen-backend.herokuapp.com/api'
 
   constructor(private http: HttpClient) {
   }
