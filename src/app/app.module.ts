@@ -11,6 +11,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ListaItemsComponent } from './components/lista-items/lista-items.component';
 import { GraficaItemsComponent } from './components/grafica-items/grafica-items.component';
+//Se importa el módulo CHartsModule para crear la gráfica
+import { ChartsModule } from 'ng2-charts'
 
 //Se crea la constante rutas para manejar las rutas de los componentes de frontend
 const rutas: Routes = [
