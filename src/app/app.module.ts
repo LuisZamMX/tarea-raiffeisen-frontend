@@ -8,9 +8,9 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppComponent } from './app.component';
 //Se importan los componentes creados
 import { HeaderComponent } from './components/header/header.component';
-import { InicioComponent } from './components/inicio/inicio.component';
 import { ListaItemsComponent } from './components/lista-items/lista-items.component';
 import { GraficaItemsComponent } from './components/grafica-items/grafica-items.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 //Se importa el módulo CHartsModule para crear la gráfica
 import { ChartsModule } from 'ng2-charts'
 
@@ -30,9 +30,9 @@ const rutas: Routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    InicioComponent,
     ListaItemsComponent,
-    GraficaItemsComponent
+    GraficaItemsComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +41,8 @@ const rutas: Routes = [
       enableTracing: true,
       paramsInheritanceStrategy: "always",
       useHash: true
-    })
+    }),
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
