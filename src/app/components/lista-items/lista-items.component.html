@@ -1,1 +1,30 @@
-<p>lista-items works!</p>
+<!--
+    COMPONENTE LISTA ITEMS:
+    Este componente trae a la propiedad items del servcicio item.service que provee sus servicios
+    al componente lista-items.component-ts a través de itemService
+-->
+
+<table class="mt-3 table table-striped animated fadeInLeft">
+    <thead class="mdb-color darken-3 white-text">
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">nombre</th>
+            <th scope="col">precio</th>
+            <th scope="col">cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of itemService.items">
+            <th scope="row">{{ item.id }}</th>
+            <td>{{ item.name }}</td>
+            <td>$ {{ item.price }}</td>
+            <td>{{ item.quantity }}</td>
+        </tr>
+        <tr>
+            <td><strong>Total:</strong></td>
+            <td></td>
+            <td></td>
+            <td><strong>{{ this.itemService.total }}</strong></td>
+        </tr>
+    </tbody>
+</table>

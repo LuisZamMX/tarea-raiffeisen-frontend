@@ -1,0 +1,4 @@
+/*** Se corrige el problema con el navBar sticky ***/
+.container{
+    padding-top: 20px;
+}
